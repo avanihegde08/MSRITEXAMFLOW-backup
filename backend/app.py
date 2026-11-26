@@ -1,0 +1,7 @@
+desktop.ini
+**/desktop.ini
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env

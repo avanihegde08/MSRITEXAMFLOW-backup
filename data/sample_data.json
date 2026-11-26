@@ -1,0 +1,279 @@
+{
+    "students": [
+        {
+            "id": "S001",
+            "name": "Student 1",
+            "exam_ids": [
+                "CS101",
+                "MA101",
+                "PH101"
+            ]
+        },
+        {
+            "id": "S002",
+            "name": "Student 2",
+            "exam_ids": [
+                "CS101",
+                "MA101"
+            ]
+        },
+        {
+            "id": "S003",
+            "name": "Student 3",
+            "exam_ids": [
+                "CS101",
+                "PH101"
+            ]
+        },
+        {
+            "id": "S004",
+            "name": "Student 4",
+            "exam_ids": [
+                "CS101",
+                "CH101"
+            ]
+        },
+        {
+            "id": "S005",
+            "name": "Student 5",
+            "exam_ids": [
+                "CS101",
+                "MA101",
+                "CH101"
+            ]
+        },
+        {
+            "id": "S006",
+            "name": "Student 6",
+            "exam_ids": [
+                "CS101",
+                "PH101"
+            ]
+        },
+        {
+            "id": "S007",
+            "name": "Student 7",
+            "exam_ids": [
+                "MA101",
+                "PH101"
+            ]
+        },
+        {
+            "id": "S008",
+            "name": "Student 8",
+            "exam_ids": [
+                "MA101",
+                "CH101"
+            ]
+        },
+        {
+            "id": "S009",
+            "name": "Student 9",
+            "exam_ids": [
+                "MA101",
+                "PH101",
+                "CH101"
+            ]
+        },
+        {
+            "id": "S010",
+            "name": "Student 10",
+            "exam_ids": [
+                "PH101",
+                "CH101"
+            ]
+        },
+        {
+            "id": "S011",
+            "name": "Student 11",
+            "exam_ids": [
+                "CS101",
+                "CH101"
+            ]
+        },
+        {
+            "id": "S012",
+            "name": "Student 12",
+            "exam_ids": [
+                "CS101",
+                "MA101",
+                "PH101",
+                "CH101"
+            ]
+        },
+        {
+            "id": "IS026",
+            "name": "Student 13",
+            "exam_ids": [
+                "CS101"
+            ]
+        }
+    ],
+    "exams": [
+        {
+            "id": "CS101",
+            "name": "Computer Science",
+            "duration_minutes": 120,
+            "required_invigilators_per_room": 1,
+            "eligible_slot_ids": [
+                "SLOT1",
+                "SLOT2",
+                "SLOT3",
+                "SLOT4"
+            ]
+        },
+        {
+            "id": "MA101",
+            "name": "Engineering Mathematics",
+            "duration_minutes": 120,
+            "required_invigilators_per_room": 1,
+            "eligible_slot_ids": [
+                "SLOT1",
+                "SLOT2",
+                "SLOT3",
+                "SLOT4"
+            ]
+        },
+        {
+            "id": "PH101",
+            "name": "Engineering Physics",
+            "duration_minutes": 120,
+            "required_invigilators_per_room": 1,
+            "eligible_slot_ids": [
+                "SLOT1",
+                "SLOT2",
+                "SLOT3",
+                "SLOT4"
+            ]
+        },
+        {
+            "id": "CH101",
+            "name": "Engineering Chemistry",
+            "duration_minutes": 120,
+            "required_invigilators_per_room": 1,
+            "eligible_slot_ids": [
+                "SLOT1",
+                "SLOT2",
+                "SLOT3",
+                "SLOT4"
+            ]
+        }
+    ],
+    "rooms": [
+        {
+            "id": "R101",
+            "name": "Main Hall",
+            "building": "Block A",
+            "capacity": 5,
+            "available_slot_ids": [
+                "SLOT1",
+                "SLOT2",
+                "SLOT3",
+                "SLOT4"
+            ]
+        },
+        {
+            "id": "R102",
+            "name": "Seminar Hall",
+            "building": "Block B",
+            "capacity": 4,
+            "available_slot_ids": [
+                "SLOT1",
+                "SLOT2",
+                "SLOT3",
+                "SLOT4"
+            ]
+        },
+        {
+            "id": "R103",
+            "name": "Computer Lab",
+            "building": "Block C",
+            "capacity": 3,
+            "available_slot_ids": [
+                "SLOT1",
+                "SLOT2",
+                "SLOT3",
+                "SLOT4"
+            ]
+        }
+    ],
+    "invigilators": [
+        {
+            "id": "I001",
+            "name": "Invigilator 1",
+            "available_slot_ids": [
+                "SLOT1",
+                "SLOT2",
+                "SLOT3",
+                "SLOT4"
+            ],
+            "max_assignments": 3
+        },
+        {
+            "id": "I002",
+            "name": "Invigilator 2",
+            "available_slot_ids": [
+                "SLOT1",
+                "SLOT2",
+                "SLOT3",
+                "SLOT4"
+            ],
+            "max_assignments": 3
+        },
+        {
+            "id": "I003",
+            "name": "Invigilator 3",
+            "available_slot_ids": [
+                "SLOT1",
+                "SLOT2",
+                "SLOT3",
+                "SLOT4"
+            ],
+            "max_assignments": 3
+        }
+    ],
+    "slots": [
+        {
+            "id": "SLOT1",
+            "date": "2026-12-01",
+            "start_time": "09:00",
+            "end_time": "11:00"
+        },
+        {
+            "id": "SLOT2",
+            "date": "2026-12-01",
+            "start_time": "12:00",
+            "end_time": "14:00"
+        },
+        {
+            "id": "SLOT3",
+            "date": "2026-12-02",
+            "start_time": "09:00",
+            "end_time": "11:00"
+        },
+        {
+            "id": "SLOT4",
+            "date": "2026-12-02",
+            "start_time": "12:00",
+            "end_time": "14:00"
+        }
+    ],
+    "constraints": {
+        "hard": {
+            "prevent_student_exam_clashes": true,
+            "prevent_room_double_booking": true,
+            "respect_room_capacity": true,
+            "prevent_invigilator_double_booking": true,
+            "respect_invigilator_availability": true,
+            "respect_room_availability": true,
+            "respect_exam_duration": true,
+            "respect_exam_eligible_slots": true
+        },
+        "soft": {
+            "minimize_student_gaps": true,
+            "balance_invigilator_workload": true,
+            "minimize_unused_room_capacity": true,
+            "minimize_number_of_rooms_used": true
+        }
+    }
+}
